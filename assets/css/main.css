@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+}
+.splash {
+  text-align: center;
+}
+h1 {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size:  1.875em;
+  color: #323232;
+}
+h2  {
+    font-family: 'PT Sans Narrow Bold', sans-serif;
+    font-size: 1.5em ;
+    color: #00897f;
+    text-transform: uppercase;
+}
+h3  {
+    font-family: 'PT Serif', serif;
+    font-size: 1em;
+    line-height:  2em;
+    color: #323232;
+}
+/* p {
+  font-family: 'PT Serif', serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+} */
+/* horizontal menu */
+nav ul {
+  list-style-type: none;
+}
+header {
+  vertical-align: center;
+}
+nav li {
+  display: inline-block;
+  padding-left: 10%;
+  text-decoration: none;
+}
+.XX {
+  display: inline;
+  text-align: left;
+}
+.XXX {
+  display: inline;
+  padding-left: 500px;
+}
+/* end menu */
+.row {
+    text-align: center;
+    margin-top: 80px;
+}
+.single-row {
+  margin: 80px 60px;
+  padding: 0 15%;
+  max-width: 60%;
+}
+.single-title {
+  text-align: center;
+}
+
+.box-description {
+  text-align: left;
+}
+.box {
+  width: 350px;
+  margin: 0 60px;
+  padding: 30px;
+  background-color: #eeeeee;
+  display: inline-block;
+}
+.box-title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.image-box {
+  text-align: center;
+  margin: 80px 0;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+    font-family: 'PT Serif Bold', serif;
+    font-size: 1em;
+    color: #f26522;
+}
+nav h1 {
+  font-family: "PT Sans Narrow Bold", sans-serif;
+  font-size: 1.5em;
+  color: #323232;
+}
+.items {
+  font-family: 'PT Sans', sans-serif;
+  font-size:.9em;
+  color: #323232;
+  text-align: right;
+}
+nav p {
+    font-family: 'PT Sans', sans-serif;
+    font-size:.9em;
+    color: #323232;
+}
+.X {
+  border-radius: 75%;
+  padding: 0 55px;
+}
+.row-container {
+    text-align: center;
+}
+.contact-container {
+  width: 1170px;
+  margin: 0 80px;
+  padding: 30 30 80 30;
+  background-color: #eeeeee;
+  display: inline-block;
+}
+.contact-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.contact-1 {
+  text-align: left;
+  background-color: #ffffff;
+  display: inline-block;
+  margin-right: 30px;
+  padding: 30px;
+  text-transform: uppercase;
+}
+.contact-2 {
+  text-align: left;
+  background-color: #ffffff;
+  margin-left: 30px;
+  display: inline-block;
+  padding: 30px;
+  text-transform: uppercase;
+}
+#XXXX {
+  padding-left: 5em;
+}
+.map {
+    text-align: center;
+}
+footer {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.25em;
+  background-color: #00897f;
+  width: 1230px;
+  vertical-align: center;
+  display: inline-block;
+}
+.footer-1 {
+  text-align: center;
+}
+footer h1 {
+    font-family: 'PT Sans Narrow Bold', sans-serif;
+    font-size: 1.25em;
+    color: #eeeeee;
+}
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}
