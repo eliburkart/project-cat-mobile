@@ -55,13 +55,9 @@ nav h1 {
    padding: 0 15%;
    width: 1230;
    max-width: 65%;
-
-
  }
 .nav-title {
  text-align: center;
-
-
 }
 .nav-description {
  text-align: left;
@@ -72,28 +68,22 @@ nav h1 {
 .contain-info {
  display: flex;
  flex-wrap: wrap;
-
- justify-content: space-around;
- background-color: yellow;
 }
 
-.info-1 {
+.info-row {
  order: 1;
  background-color: #eeeeee;
  padding: 30;
- width: 40%;
  min-width: 200px;
- margin: 0 60;
+ margin: auto 60;
 }
-
-.info-2 {
+#info-1 {
+ order: 1;
+ flex: 1;
+}
+#info-2 {
  order: 2;
- background-color: #eeeeee;
- padding: 30;
- width: 40%;
- min-width: 200px;
- margin-left: 10%;
-
+ flex:1;
 }
 .image-box {
  display: flex;
@@ -112,7 +102,7 @@ nav h1 {
  flex-wrap: wrap;
  background-color: #eeeeee;
  max-width: 1230;
- justify-content: space-between;
+ justify-content: center;
  align-items: center;
  padding-bottom: 80px;
  margin: 0 auto;
@@ -126,32 +116,22 @@ nav h1 {
  text-align: center;
 }
 
-.contact-1 {
- order: 1;
-flex-basis: auto;
+.contact-row {
+ flex-basis: auto;
  text-align: left;
  background-color: #ffffff;
- text-transform: uppercase;
  padding: 30px;
- justify-content: space-between;
- margin: 0 12%;
+ margin: auto 30;
+ width: 310px;
  -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
         box-sizing: border-box;
 }
-.contact-2 {
+#contact-1  {
+  order: 1;
+}
+#contact-2 {
  order: 2;
- flex-basis: auto;
- text-align: left;
- background-color: #ffffff;
- text-transform: uppercase;
- padding: 30px;
-
- margin: 0 12%;
-
- -webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-        box-sizing: border-box;
 }
 
 #STL {
@@ -167,11 +147,12 @@ footer {
  font-family: 'PT Sans Narrow Bold', sans-serif;
  font-size: 1.25em;
  background-color: #00897f;
- width: 1230px;
- max-width: 100%;
+ width: 100%;
+ max-width: 1230px;
+ justify-content: center;
  vertical-align: center;
  padding: 10 auto 10 auto;
- text-align: center;
+
  margin: auto 0 auto 0;
  position: absolute;
 }
@@ -180,6 +161,7 @@ footer h1 {
  font-family: 'PT Sans Narrow Bold', sans-serif;
  font-size: 1.25em;
  color: #eeeeee;
+  text-align: center;
 }
 
 img, embed, object, video {
@@ -187,16 +169,25 @@ img, embed, object, video {
 }
 
 /* mobile */
-@media (max-width: 600px ) {
+@media (max-width: 376px) {
 #hide {
  display: none;
-
 }
 .map {
  max-width: 550px;
 }
 .splash {
  max-width: 550px;
+}
+.info-1, .info-2 {
+  min-width: 310;
+}
+#contact-1, #contact-2 {
+  min-width: 310px;
+  background-color: transparent;
+}
+.nav {
+  text-align: center;
 }
 }
 /* On devices wider than 660px */
