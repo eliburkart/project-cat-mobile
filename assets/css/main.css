@@ -106,7 +106,6 @@ nav h1 {
  align-items: center;
  padding-bottom: 80px;
  margin: 0 auto;
- background-color: yellow;
 }
 
 .contact-title {
@@ -152,7 +151,6 @@ footer {
  justify-content: center;
  vertical-align: center;
  padding: 10 auto 10 auto;
-
  margin: auto 0 auto 0;
  position: absolute;
 }
@@ -173,6 +171,13 @@ img, embed, object, video {
 #hide {
  display: none;
 }
+h1 {
+  font-size: 18px;
+  text-align: center;
+}
+h3 {
+  font-size: 14px;
+}
 .map {
  max-width: 550px;
 }
@@ -181,6 +186,15 @@ img, embed, object, video {
 }
 .info-1, .info-2 {
   min-width: 310;
+}
+.container-contact {
+  padding-bottom: 2px;
+  padding-top: 0;
+
+}
+.contact-row {
+  padding-bottom: 10px;
+
 }
 #contact-1, #contact-2 {
   min-width: 310px;
