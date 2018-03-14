@@ -51,7 +51,6 @@ nav h1 {
  /* kat's motivation */
  .content-shop {
    display: block;
-   background-color: yellow;
    margin: 80 auto 60 auto;
    padding: 0 15%;
    width: 1230;
@@ -73,8 +72,9 @@ nav h1 {
 .contain-info {
  display: flex;
  flex-wrap: wrap;
- margin: 0  200 ;
+
  justify-content: space-around;
+ background-color: yellow;
 }
 
 .info-1 {
@@ -83,6 +83,7 @@ nav h1 {
  padding: 30;
  width: 40%;
  min-width: 200px;
+ margin: 0 60;
 }
 
 .info-2 {
@@ -90,7 +91,8 @@ nav h1 {
  background-color: #eeeeee;
  padding: 30;
  width: 40%;
- max-width: 40%;
+ min-width: 200px;
+ margin-left: 10%;
 
 }
 .image-box {
@@ -114,6 +116,7 @@ nav h1 {
  align-items: center;
  padding-bottom: 80px;
  margin: 0 auto;
+ background-color: yellow;
 }
 
 .contact-title {
@@ -130,9 +133,8 @@ flex-basis: auto;
  background-color: #ffffff;
  text-transform: uppercase;
  padding: 30px;
-
  justify-content: space-between;
- margin-left: 8%;
+ margin: 0 12%;
  -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -145,7 +147,8 @@ flex-basis: auto;
  text-transform: uppercase;
  padding: 30px;
 
- margin-right: 8%;
+ margin: 0 12%;
+
  -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
         box-sizing: border-box;
