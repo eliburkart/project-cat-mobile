@@ -1,33 +1,38 @@
-body {
- margin: 0;
+body { margin: 0;
 }
 
 .splash {
- text-align: center;
- width: 100%;
+  background-image: url("assets/images/kats-hero.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
+
 h1 {
- font-family: 'PT Sans Narrow Bold', sans-serif;
- font-size: 1.875em;
- color: #323232;
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.875em;
+  color: #323232;
 }
 
 h2 {
- font-family: 'PT Sans Narrow Bold', sans-serif;
- font-size: 1.5em;
- color: #00897f;
- text-transform: uppercase;
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform: uppercase;
 }
 
 h3 {
- font-family: 'PT Serif', serif;
- font-size: 1em;
- line-height: 2em;
- color: #323232;
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+  text-transform: uppercase;
 }
 a:link {
- text-decoration: none;
+  text-decoration: none;
 }
 a {
    font-family: 'PT Serif Bold', serif;
@@ -132,7 +137,9 @@ nav h1 {
 #contact-2 {
  order: 2;
 }
-
+#STR {
+  color: #f26522;
+}
 #STL {
  padding-left: 5em;
  color: #f26522;
@@ -172,18 +179,21 @@ img, embed, object, video {
  display: none;
 }
 h1 {
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 }
 h3 {
   font-size: 14px;
 }
+\
+#splashy {
+    z-index: -1;
+    position: absolute;
+}
 .map {
  max-width: 550px;
 }
-.splash {
- max-width: 550px;
-}
+
 .info-1, .info-2 {
   min-width: 310;
 }
