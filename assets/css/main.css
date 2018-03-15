@@ -1,3 +1,10 @@
+/* Xtine
+  Overall:
+  - Great job organizing your CSS styles
+  - Combining classes with ID when necessary is good, too, however there are opportunities to make more generic classes in places like image
+  - You also have a good understanding of flexbox and media queries
+*/
+
 body {
  margin: 0;
 }
@@ -7,6 +14,10 @@ body {
  width: 100%;
 }
 
+/* Xtine 
+    Try 'PT Sans Narrow' instead of 'PT Sans Narrow Bold'
+    (it's not loading the font using that font-family name)
+ */
 h1 {
  font-family: 'PT Sans Narrow Bold', sans-serif;
  font-size: 1.875em;
@@ -64,7 +75,13 @@ nav h1 {
 
 }
 
+/* Xtine Yes! Nice comments to show section! */
+
 /* ABOUT section */
+/* Xtine 
+  - This section should have a max-width based on the design, might have to be eyeballed
+  - Match the mobile design background colors more closely
+*/
 .contain-info {
  display: flex;
  flex-wrap: wrap;
@@ -75,7 +92,7 @@ nav h1 {
  background-color: #eeeeee;
  padding: 30;
  min-width: 200px;
- margin: auto 60;
+ margin: auto 60; /* Xtine Margin is a bit wide here */
 }
 #info-1 {
  order: 1;
@@ -97,6 +114,11 @@ nav h1 {
  padding: 0 55px;
 }
 
+/* Xtine
+  - The grey container should be full width
+  - Max width for contents should be the same as max-width above.
+  - Match the mobile design background colors more closely
+*/
 .container-contact {
  display: flex;
  flex-wrap: wrap;
@@ -163,12 +185,16 @@ footer h1 {
   text-align: center;
 }
 
+/* Xtine This is affecting your .splash image, preventing it from looking full width */
 img, embed, object, video {
     max-width: 100%;
 }
 
 /* mobile */
 @media (max-width: 376px) {
+  /* Xtine
+    Make sure to tab your CSS so it's easier to see tha tit's inside a media query
+  */
 #hide {
  display: none;
 }
