@@ -149,20 +149,18 @@ nav h1 {
 }
 
 
-footer {
+.footer-1 {
  font-family: 'PT Sans Narrow Bold', sans-serif;
  font-size: 1.25em;
  background-color: #00897f;
  width: 100%;
  max-width: 1230px;
  justify-content: center;
- vertical-align: center;
- padding: 10 auto 10 auto;
  margin: auto 0 auto 0;
  position: absolute;
 }
 
-footer h1 {
+.footer-1 h1 {
  font-family: 'PT Sans Narrow Bold', sans-serif;
  font-size: 1.25em;
  color: #eeeeee;
@@ -186,9 +184,13 @@ h3 {
   font-size: 14px;
 }
 \
-#splashy {
-    z-index: -1;
-    position: absolute;
+.splash {
+  background-image: url("assets/images/kats-hero.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .map {
  max-width: 550px;
@@ -200,11 +202,9 @@ h3 {
 .container-contact {
   padding-bottom: 2px;
   padding-top: 0;
-
 }
 .contact-row {
   padding-bottom: 10px;
-
 }
 #contact-1, #contact-2 {
   min-width: 310px;
