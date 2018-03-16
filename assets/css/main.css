@@ -91,7 +91,6 @@ a {
  color: #323232;
 }*/
 
-.main {}
  /* kat's motivation */
  .content-shop {
    display: block;
@@ -201,20 +200,16 @@ a {
   position: relative;
 }
 
-.footer-container {
-  position: absolute;
-  background-color: #00897f;
-  display: block;
-  padding: 0;
-  min-width: 100%;
-}
+
 
 footer {
+  width: 100%;
  font-family: 'PT Sans Narrow Bold', sans-serif;
  font-size: 1.25em;
  background-color: #00897f;
  vertical-align: middle;
  text-align: center;
+ padding: 75px 0;
 }
 
 footer h1 {
@@ -289,6 +284,7 @@ h3 {
   body {
     margin: auto 60;
   }
+
 
 }
 
