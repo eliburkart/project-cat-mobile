@@ -1,3 +1,5 @@
+
+/* body styling */
 body {   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -6,7 +8,50 @@ body {   margin: 0;
   display: flex;
   flex-wrap: wrap;
 } */
-.splash {
+/*Elements  */
+h1 {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.875em;
+  color: #323232;
+}
+
+h2 {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  font-size: 1em;
+  line-height: 2em;
+  color: #323232;
+  text-transform: uppercase;
+}
+
+a {
+   font-family: 'PT Serif Bold', serif;
+   font-size: 1em;
+   color: #f26522;
+}
+
+ p {
+ font-family: 'PT Serif', serif;
+ font-size: .875em;
+ line-height: 1.75em;
+ color: #323232;
+}
+/* More specific elements */
+header h1 {
+  font-family: 'PT Sans Narrow Bold', sans-serif;
+}
+a:link {
+  text-decoration: none;
+}
+
+/* Image Styling background */
+.hero-image {
   background-image: url("../../assets/images/kats-hero.jpg");
   height: 50%;
   background-position: center;
@@ -14,8 +59,9 @@ body {   margin: 0;
   background-size: cover;
   position: relative;
 }
+/* ~end image sytling~  */
 
-/* Primary Menu */
+/* Primary Menu Flexxed */
 header {
   display: flex;
   flex-flow: nowrap row;
@@ -50,105 +96,78 @@ header {
   font-size: .9em;
   color: #323232;
 }
+/* ~end of menu~  */
 
 
-h1 {
-  font-family: 'PT Sans Narrow Bold', sans-serif;
-  font-size: 1.875em;
-  color: #323232;
-}
-
-header h1 {
-  font-family: 'PT Sans Narrow Bold', sans-serif;
-}
-h2 {
-  font-family: 'PT Sans Narrow Bold', sans-serif;
-  font-size: 1.5em;
-  color: #00897f;
-  text-transform: uppercase;
-}
-
-h3 {
-  font-family: 'PT Serif', serif;
-  font-size: 1em;
-  line-height: 2em;
-  color: #323232;
-  text-transform: uppercase;
-}
-a:link {
-  text-decoration: none;
-}
-a {
-   font-family: 'PT Serif Bold', serif;
-   font-size: 1em;
-   color: #f26522;
-}
-
-
- p {
- font-family: 'PT Serif', serif;
- font-size: .875em;
- line-height: 1.75em;
- color: #323232;
-}
-
- /* kat's motivation */
- .content-shop {
+ /*ABOUT Offerings flexxes*/
+ .content-offerings {
    display: block;
    margin: 80 auto 60 auto;
    padding: 0 15%;
    width: 1230;
    max-width: 60%;
  }
-  .nav-title {
+  .offerings-title {
   text-align: center;
  }
- .nav-description {
+ .offerings-description {
   text-align: left;
-
  }
+/* end of offering section */
 
-/* ABOUT section */
-.contain-info {
+/* About the owners */
+/*wrapper  */
+.about-wrapper {
   display: flex;
   flex-wrap: wrap;
   overflow: hidden;
   justify-content: center;
   align-items: center;
 }
-
-.info-row {
+/*flex boxes  */
+.about-row {
   background-color: #eeeeee;
   align-content: center;
   padding: 30;
-
 }
-#info-1 {
+
+#center-text {
+  text-align: center;
+}
+/* individual styling */
+#about-1 {
  order: 1;
   width: 270px;
   margin-right: 60;
   height: 250px;
 }
-#info-2 {
+
+#about-2 {
  order: 2;
   width: 270px;
   height: 250px;
 }
+/* end ABOUT */
+
+/* Circular IMAGES of Cats  */
 .image-box {
  display: flex;
  flex-wrap: nowrap;
  justify-content: center;
  align-items: center;
-
 }
 
 .round {
  border-radius: 75%;
-
 }
+
 #hide {
   margin-right: 55px;
 }
+/* end IMAGE */
+
+/* Contact Info */
+/* wrapper */
 .container-contact {
  display: flex;
  flex-wrap: wrap;
@@ -160,16 +179,14 @@ a {
  margin: 0 auto;
  overflow: hidden;
 }
-
+/* flex boxes */
 .contact-title {
  order: 0;
  margin-bottom: 45px;
  width: 100%;
  text-align: center;
 }
-/* #titles {
-  overflow: hidden;
-} */
+
 .contact-row {
  flex-basis: auto;
  text-align: left;
@@ -177,10 +194,13 @@ a {
  padding: 30px;
  width: 270px;
 }
+
+/* individual styling */
 #contact-1  {
   order: 1;
   margin-right: 60;
 }
+
 #contact-2 {
  order: 2;
 }
@@ -191,6 +211,10 @@ a {
  padding-left: 5em;
  color: #f26522;
 }
+
+/* END CONTACT */
+
+/*Map */
 .map {
   background-image: url("../../assets/images/kats-map.jpg");
   height: 50%;
@@ -200,8 +224,7 @@ a {
   position: relative;
 }
 
-
-
+/* Footer */
 footer {
   width: 100%;
  font-family: 'PT Sans Narrow Bold', sans-serif;
@@ -218,8 +241,10 @@ footer h1 {
  color: #eeeeee;
 }
 
-
 }
+
+/* MEDIA QUERIES */
+
 @media (min-width: 375px) and (max-width: 599) {
   #hide {
     display: none;
