@@ -353,6 +353,9 @@ footer h1 {
   .offerings-title {
     font-size: .8em;
   }
+  .content-offerings h1 {
+    font-size: 1.6em;
+  }
   .content-offerings h3 {
     font-size: .7em;
   }
@@ -366,13 +369,16 @@ footer h1 {
     padding: 0;
   }
   .about-row {
-    margin: 0;
+    width: 100%;
   }
   .about-1, .about-2 {
     align-content: center;
     margin: 0;
-
   }
+  #about-1, #about-2 {
+    padding: 0;
+  }
+
   .image-box {
     margin-bottom: 40px;
     margin-top: 40px;
@@ -380,6 +386,7 @@ footer h1 {
   .contact-row {
     margin: 0;
   }
+
   .container-contact h2 {
     font-size: 1.3em;
   }
@@ -395,13 +402,18 @@ footer h1 {
   #hide {
     display: none;
   }
+  #hide-2 {
+    display: none;
+  }
   .two {
     padding-left: 10%;
     align-items: flex-start;
   }
   .content-offerings {
-    padding: 0;
     margin: 40;
+  }
+  .content-offerings h1 {
+    font-size: 1.7em;
   }
   .about-wrapper {
     background-color: #eeeeee;
@@ -434,9 +446,7 @@ footer h1 {
     background-color: transparent;
     padding: 0;
   }
- .two {
-   display: none;
- }
+
 }
 
 /* On devices wider than 940px */
@@ -449,6 +459,6 @@ footer h1 {
     margin: 80px 60px;
   }
   .two {
-    padding-left: 60%;
+    padding-left: 55%;
   }
 }
